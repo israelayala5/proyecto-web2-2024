@@ -1,0 +1,18 @@
+.about-page header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../utils/img/cocina.jpg);
+    height: 60vh;
+}
+
+.container  {
+    font-family: "Poppins", sans-serif; 
+}
+
+.bgx {
+    background-color:#0C826D;
+}
+.col-lg-6 :hover {
+    transform: translateY(-5px);
+    box-shadow: 0  0px rgb(10, 98, 73);
+    border-radius: 4px;
+    transition: transform 0.3s, box-shadow 0.5s;
+}

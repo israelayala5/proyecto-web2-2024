@@ -1,0 +1,54 @@
+.carousel {
+  width: 100%; 
+  height: auto;
+}
+
+.custom-carousel {
+  max-width: 600px; 
+  margin: auto; 
+}
+
+.carousel-item img {
+  width: 100%; 
+  height: auto; 
+  object-fit: contain; 
+  border-radius: 30px; 
+  opacity: 0.9; 
+}
+
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.30); 
+  position: absolute;
+  bottom: 0;
+  left: 0; 
+  right: 0; 
+  padding: 50px;
+  border-radius: 10px;
+  cursor: pointer;
+  height: auto;
+}
+
+.carousel-caption h5, .carousel-caption p {
+  color: whitesmoke;
+  font-family: "Poppins", sans-serif;
+}
+
+.carousel-item {
+  transition: opacity 0.35s ease-in-out; 
+}
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  color: white; 
+}
+
+.carousel-inner {
+  border-radius: 30px; 
+}
+
+.custom-carousel {
+  max-height: 300px; 
+}
+
+.custom-carousel-img {
+  object-fit: contain;
+}
+

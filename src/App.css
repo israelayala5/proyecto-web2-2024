@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+ background-color: #61dafb;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -24,8 +24,53 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.fixed-top {
+  height: auto; /* Cambiado a auto para que la altura se ajuste automáticamente */
+}
+
+.navbar-custom-color {
+  background-color: #0C826D;
+}
+
+.navbar-brand {
+  font-family: "Poppins", sans-serif; 
+}
+
+.navbar-brand > p {
+  font-size: 35px;
+  color: white;
+  margin: 30px 0 0 50px;
+}
+
+#basic-navbar-nav {
+  margin: auto;
+}
+
+.nav-item {
+  margin-right: 30px; /* Ajusta el espaciado entre elementos del menú */
+}
+.me-auto {
+  margin-bottom: 25px;
+}
+
+.navbar-nav .nav-link {
+  color: white !important;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Media query para hacer que el Navbar sea responsivo */
+@media (max-width: 991px) {
+  .navbar-brand > p {
+    margin-left: 0; /* Elimina el margen negativo en pantallas más pequeñas */
+    text-align: center; /* Centra el texto del Navbar en pantallas pequeñas */
+  }
+  
+  .navbar-nav .nav-link {
+    margin-right: 0; /* Elimina el margen derecho de los elementos del menú en pantallas más pequeñas */
+    padding: 10px 15px; /* Aumenta el espacio entre elementos del menú en pantallas pequeñas */
+    text-align: center; /* Centra los elementos del menú en pantallas pequeñas */
+  }
 }
 
 @keyframes App-logo-spin {
@@ -36,3 +81,4 @@
     transform: rotate(360deg);
   }
 }
+

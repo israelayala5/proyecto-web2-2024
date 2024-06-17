@@ -1,0 +1,38 @@
+.home-pages header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../utils/img/dota2.jpg);
+    height:45vh;
+}
+.israel {
+    width: 62%;
+    display: flex;
+   justify-content: center;
+    padding: 50px;
+    margin-left: 19%;
+    border-radius: 40px;
+    
+    
+ }
+
+.text-center  {
+    margin-top: 40px;
+}
+
+
+.custom-card {
+    border: 2px solid #0C826D; 
+    background-color: #f9f9f9;
+    transition: transform 0.2s ease, box-shadow 0.2s ease; 
+  }
+  .custom-card:hover {
+    transform: scale(1.1); 
+    box-shadow: 0 10px 20px rgba(0, 0, 0,5); 
+  }
+
+  .custom-card-body {
+    padding: 0.5rem;
+    background-color: #77c4b6;
+  }
+  .custom-card-footer {
+    display: flex;
+    align-items: center;
+  }

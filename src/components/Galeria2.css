@@ -1,0 +1,9 @@
+.img-fluidz {
+    border-radius: 10px; 
+    border: 4px solid #77C4B6; 
+  }
+  
+  .img-fluidz {
+    display: flex;
+    margin-left: 190px;
+  }

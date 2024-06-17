@@ -1,0 +1,57 @@
+.home-page header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../utils/img/principal1.jpg);
+}
+.home-page header h1,
+.home-page header h2 {
+    text-shadow: 2px 2px 8px rgb(119, 119, 67);
+}
+
+.menu-section {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../utils/img/menu1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+img {
+    border-style: solid;
+    border-width: 5px;
+}
+
+.row {
+   align-items: center;
+}
+
+#boton {
+    background-color: #0C826D;
+    color: white;
+}
+
+.custom-bg {
+    background-color: #0C826D;
+  }
+  
+.container {
+    align-items: center;
+}
+
+.bgxx {
+    color: #0C826D;
+}
+
+
+@media only screen and (max-width: 768px) {
+    header h1 {
+        font-size: 4rem;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    header h1 {
+        font-size: 3rem;
+    }
+}
+  @media (min-width: 576px) {
+    header .col-sm-6 {
+      text-align: center; 
+    }
+  }
